@@ -1,0 +1,16 @@
+# in theory services here dont require container reloading
+
+# http:
+#   routers:
+#     api-internal:
+#       tls:
+#         domains:
+#           - main: "altran.com"
+#             sans:
+#               - "*.altran.com"
+
+#tls:
+#  certificates:
+#    # provide container mount path
+#    - certFile: "/etc/certs/cert.pem"
+#      keyFile: "/etc/certs/key.pem"
